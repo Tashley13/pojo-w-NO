@@ -11,6 +11,15 @@ let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'}
 keysInObject(animals); // => ["dog", "cat", "bison"]
 keysInObject(foods); // => ["apple", "lemon", "mango"]
 ***********************************************************************/
+// function keysInObject(obj) {
+//   for (let keys in obj) {
+//     let key = obj[keys]
+//     return key;
+//   }
+
+// }
+
+
 
 function keysInObject(obj) {
 return Object.keys(obj)
@@ -20,7 +29,8 @@ return Object.keys(obj)
 
 let animals = {dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo'}
 let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'}
-keysInObject(animals); // => ["dog", "cat", "bison"]
-keysInObject(foods); // => ["apple", "lemon", "mango"]
+console.log(keysInObject(animals)); // => ["dog", "cat", "bison"]
+console.log(keysInObject(foods)); // => ["apple", "lemon", "mango"]
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = keysInObject;
