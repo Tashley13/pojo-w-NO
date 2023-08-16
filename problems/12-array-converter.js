@@ -12,8 +12,23 @@ console.log(arrayConverter(["apple", "banana", "potato", "banana"])); // => {app
 ***********************************************************************/
 
 function arrayConverter(array) {
-  // Your code here
+  let emptyObj={}
+  for (let i=0; i<array.length;i++) {
+    let curVal=array[i]
+    if (emptyObj[curVal]===undefined) {
+      emptyObj[curVal]=1
+    } else {
+      emptyObj[curVal]+=1
+    }
+
+
+
+
+  }return emptyObj
 }
+
+  console.log(arrayConverter(["apple", "apple"])); // => {apple: 2}
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = arrayConverter;

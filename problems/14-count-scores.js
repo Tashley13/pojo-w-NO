@@ -26,9 +26,12 @@ let peeps = [
 ];
 console.log(countScores(peeps)); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 ***********************************************************************/
+/*
+declare a function
 
+*/
 function countScores(people) {
-  // Your code here
+
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
